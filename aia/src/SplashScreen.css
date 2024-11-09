@@ -1,0 +1,26 @@
+/* SplashScreen.css */
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* 배경색은 원하는 색상으로 변경 가능 */
+    font-family: Arial, sans-serif;
+  }
+  
+  .splash-screen h1 {
+    font-size: 2.5rem;
+    color: #f0f0f0;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
